@@ -44,11 +44,6 @@ class HeritagesTabBarController: UITabBarController {
         viewModel.inputs.viewDidLoad()
         bindOutputs()
     }
-
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        viewModel.inputs.viewDidLoad()
-    }
 }
 
 extension HeritagesTabBarController {
