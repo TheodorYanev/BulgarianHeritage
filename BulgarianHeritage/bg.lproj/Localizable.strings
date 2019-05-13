@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  BulgarianCulture
+
+  Created by Teodor Evgeniev Yanev on 6.05.19.
+  Copyright © 2019 Stamsoft. All rights reserved.
+*/
+"Quiz" = "Викторина";
+"Intro" = "Въведение";
+"All Heritages" = "Всички наследства";
+"Scores" = "Резултати";
+"Log out" = "Изход";
+
+"Alert" = "Тревога";
+"Error" = "Грешка";
+"OK" = "Добре";
+
+"insufficient length" = "недостатъчна дължина";
+"too long length" = "твърде голяма дължина";
+"invalid username" = "невалидно потребителско име";
+"invalid password" = "невалидна парола";
+
+"Registration completed" = "Регистрацията е успешна";
+"Registration failed!" = "Регистрацията е неуспешна!";
+"Save succeeded!" = "Записът е успешен!";
+"Save failed!" = "Записът е неуспешен!";
+"Request failed!" = "Заявката неуспешна!";
+
+"username" = "потребителско име";
+"password" = "парола";
+"Checking ..." = "Проверява ...";
+
+"Login" = "Вход";
+"Create new account" = "Създай нов акаунт";
+"Wrong username or password! Try another combination." = "Грешно потребителско име или парола! Опитай друга комбинация.";
+"Error occurred! There would be a problem with the connection to the internet or to the server." = "Възникна грешка! Има проблем с връзката към интернета или сървъра.";
+
+"Register" = "Регистрирай се";
+"Registration" = "Регистрация";
+"Username and password should start with word character and should be atleast 6 characters" = "Потребителското име и парола трябва да започват с буква и да бъдат поне 6 символа";
+"These username and password are already in use! Try another combination." = "Потребителското име и парола са вече използвани! Опитай друга комбинация.";
+"There is a problem with the internet or server connection." = "Има проблем с връзката към интернета или сървъра.";
+
+"Cultural" = "Културни";
+"Natural" = "Природни";
+"Intangible" = "Нематериални";
+"Location" = "Местоположение";
+"There are not found any haritages information" = "Не е намерена никаква информация за наследства";
+
+" of " = " от ";
+"Next" = "Следващ";
+
+"Result" = "Резултат";
+"Finish quiz" = "Приключи викторината";
+"Back to menu" = "Обратно към менюто";
+"You got " = "Имаш ";
+" points from 12. " = " точки от 12. ";
+"\nRules are:\nYou get 1 point for every correctly answered question.\nGrade scale is:\nFor 0 to 4 points - Failed(F)\nFor 5 to 7 points - Fine(D)\nFor 8 to 9 points - Good(C)\nFor 10 to 11 points - Very Good(B)\nFor 12 points - Excellent(A)" = "\nПравилата са:\nПолучаваш по една точка за всеки верен отговор.\nСкалата на оценяване е:\nОт 0 до 4 точки - Слаб(2)\nОт 5 до 7 точки - Среден(3)\nОт 8 до 9 точки - Добър(4)\nОт 10 до 11 точки - Много добър(5)\nПри 12 точки - Отличен(6)";
+"You have failed. Good luck next time!" = "Ти се справи много слабо. Късмет следващия път!";
+"You have done fine." = "Справи се прилично.";
+"Good! Your score is pretty good! Good luck next time." = "Добре! Резултатът ти е наистина добър! Късмет следващия път.";
+"Very Good! You almost have done excellent!" = "Много добре! Почти се справи отлично!";
+"EXCELLENT! You are from the best ones!" = "ОТЛИЧНО! Сред най-добрите си!";
+"There is problem with saving your score. Check your internet connection and try again!" = "Има проблем със запазването на резултата ти. Провери си интернетът и пробвай пак!";
+
+"Start quiz" = "Започни викторината";
+"It's about Bulgaria - this short earthly paradise - this place, where four years of history are interwoven, in which cultures and civilizations meet over the centuries of existence, glorious with their great heroes - all this can only help us feel proud BULGARIANS.\nThe World Cultural and Natural Heritage List of UNESCO includes a total of 9 Bulgarian cultural and nature sites. It also includes 3 intangible ones.\nIf you feel ready for the quiz, you can click on the \"Start Quiz\" button. an adverse case offer Have a look at the Bulgarian heritage materials in the \"All Heritage\" section of the menu. Good luck!" = "Става дума за България-този къс земен рай. Това място, в което се вплитат 4 годишни времена, в което си дават срещи различни култури и цивилизации през вековете на съществуване, славно със своите велики герои. Всичко това няма как да не ни прави горди БЪЛГАРИ.\nВ Списъка на световното културно и природно наследство на ЮНЕСКО са включени общо 9 български обекта. В него са включени и 3 нематериалните обектa.\nАко се чувстваш готов за викторината може да натиснеш бутона “Започни викторината”. В противен случай предлагам да разгледаш материалите за българските наследства в секцията “Всички наследствa” в менюто. Успех!";
+
+"There are no loaded quiz! Check your network connection and try again later!" = "Няма заредена викторина! Провери връзката си с интернет и пробвай пак по-късно!";
+
+"Position" = "Позиция";
+"Username" = "Потребител";
+"Score" = "Резултат";
+"There are not found any scores" = "Не са намерени никакви резултати";
+
+

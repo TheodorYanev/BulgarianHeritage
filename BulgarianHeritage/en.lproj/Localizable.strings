@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  BulgarianCulture
+
+  Created by Teodor Evgeniev Yanev on 6.05.19.
+  Copyright © 2019 Stamsoft. All rights reserved.
+*/
+"Quiz" = "Quiz";
+"Intro" = "Intro";
+"All Heritages" = "All Heritages";
+"Scores" = "Scores";
+"Log out" = "Log out";
+
+"Alert" = "Alert";
+"Error" = "Error";
+"OK" = "OK";
+
+"insufficient length" = "insufficient length";
+"too long length" = "too long length";
+"invalid username" = "invalid username";
+"invalid password" = "invalid password";
+
+"Registration completed" = "Registration completed";
+"Registration failed!" = "Registration failed!";
+"Save succeeded!" = "Save succeeded!";
+"Save failed!" = "Save failed!";
+"Request failed!" = "Request failed!";
+
+"username" = "username";
+"password" = "password";
+"Checking ..." = "Checking ...";
+
+"Login" = "Login";
+"Create new account" = "Create new account";
+"Wrong username or password! Try another combination." = "Wrong username or password! Try another combination.";
+"Error occurred! There would be a problem with the connection to the internet or to the server." = "Error occurred! There would be a problem with the connection to the internet or to the server.";
+
+"Register" = "Register";
+"Registration" = "Registration";
+"Username and password should start with word character and should be atleast 6 characters" = "Username and password should start with word character and should be atleast 6 characters";
+"These username and password are already in use! Try another combination." = "These username and password are already in use! Try another combination.";
+"There is a problem with the internet or server connection." = "There is a problem with the internet or server connection.";
+
+"Cultural" = "Cultural";
+"Natural" = "Natural";
+"Intangible" = "Intangible";
+"Location" = "Location";
+"There are not found any haritages information" = "There are not found any haritages information";
+
+" of " = " of ";
+"Next" = "Next";
+
+"Result" = "Result";
+"Finish quiz" = "Finish quiz";
+"Back to menu" = "Back to menu";
+"You got " = "You got ";
+" points from 12. " = " points from 12. ";
+"\nRules are:\nYou get 1 point for every correctly answered question.\nGrade scale is:\nFor 0 to 4 points - Failed(F)\nFor 5 to 7 points - Fine(D)\nFor 8 to 9 points - Good(C)\nFor 10 to 11 points - Very Good(B)\nFor 12 points - Excellent(A)" =
+"\nRules are:\nYou get 1 point for every correctly answered question.\nGrade scale is:\nFor 0 to 4 points - Failed(F)\nFor 5 to 7 points - Fine(D)\nFor 8 to 9 points - Good(C)\nFor 10 to 11 points - Very Good(B)\nFor 12 points - Excellent(A)";
+"You have failed. Good luck next time!" = "You have failed. Good luck next time!";
+"You have done fine." = "You have done fine.";
+"Good! Your score is pretty good! Good luck next time." = "Good! Your score is pretty good! Good luck next time.";
+"Very Good! You almost have done excellent!" = "Very Good! You almost have done excellent!";
+"EXCELLENT! You are from the best ones!" = "EXCELLENT! You are from the best ones!";
+"There is problem with saving your score. Check your internet connection and try again!" = "There is problem with saving your score. Check your internet connection and try again!";
+
+"Start quiz" = "Start quiz";
+"It's about Bulgaria - this short earthly paradise - this place, where four years of history are interwoven, in which cultures and civilizations meet over the centuries of existence, glorious with their great heroes - all this can only help us feel proud BULGARIANS.\nThe World Cultural and Natural Heritage List of UNESCO includes a total of 9 Bulgarian cultural and nature sites. It also includes 3 intangible ones.\nIf you feel ready for the quiz, you can click on the \"Start Quiz\" button. an adverse case offer Have a look at the Bulgarian heritage materials in the \"All Heritage\" section of the menu. Good luck!" = "It's about Bulgaria - this short earthly paradise - this place, where four years of history are interwoven, in which cultures and civilizations meet over the centuries of existence, glorious with their great heroes - all this can only help us feel proud BULGARIANS.\nThe World Cultural and Natural Heritage List of UNESCO includes a total of 9 Bulgarian cultural and nature sites. It also includes 3 intangible ones.\nIf you feel ready for the quiz, you can click on the \"Start Quiz\" button. an adverse case offer Have a look at the Bulgarian heritage materials in the \"All Heritage\" section of the menu. Good luck!";
+"There are no loaded quiz! Check your network connection and try again later!" = "There are no loaded quiz! Check your network connection and try again later!";
+
+"Position" = "Position";
+"Username" = "Username";
+"Score" = "Score";
+"There are not found any scores" = "There are not found any scores";
+
+

@@ -1,0 +1,6 @@
+framework module Pods_BulgarianHeritageUITests {
+  umbrella header "Pods-BulgarianHeritageUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

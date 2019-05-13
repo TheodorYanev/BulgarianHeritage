@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Differentiator (3.1.0)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - IQKeyboardManagerSwift (6.2.1)
+  - KVNProgress (2.3.5)
+  - Localize-Swift (2.0.0)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - RxSwiftExt/Core (3.4.0):
+    - RxSwift (~> 4.0)
+  - SideMenu (5.0.3)
+  - SkyFloatingLabelTextField (3.6.0)
+  - SwiftLint (0.31.0)
+  - UIColor_Hex_Swift (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - IQKeyboardManagerSwift (= 6.2.1)
+  - KVNProgress (= 2.3.5)
+  - Localize-Swift (~> 2.0)
+  - RxCocoa (= 4.4.2)
+  - RxDataSources (= 3.1.0)
+  - RxSwift (= 4.4.2)
+  - RxSwiftExt/Core
+  - SideMenu
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftLint (= 0.31.0)
+  - UIColor_Hex_Swift (~> 4.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - GoogleMaps
+    - IQKeyboardManagerSwift
+    - KVNProgress
+    - Localize-Swift
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - RxSwiftExt
+    - SideMenu
+    - SkyFloatingLabelTextField
+    - SwiftLint
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  KVNProgress: d7046cce142f1aeb740db39dc3cacfe910fac354
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  UIColor_Hex_Swift: bc07fc197421ee896b9ed6dcfa2054b7fbf75145
+
+PODFILE CHECKSUM: d0b705534779fc19dac785bdca6273fd6601f8d8
+
+COCOAPODS: 1.5.3
