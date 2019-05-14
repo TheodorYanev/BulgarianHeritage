@@ -64,24 +64,15 @@ class HeritagesTabBarViewModel: HeritagesTabBarViewModelInputs, HeritagesTabBarV
 
         let viewDidLoad = viewDidLoadSubject
             .asDriver(onErrorJustReturn: ())
-        
-        let loadHeritages = viewDidLoad
-            .withUnretained(self)
-            .delay(0.1)
-        
-        loadHeritages
-            .drive(onNext: { (weakSelf, _) in
-                if let items = items {
-                    fetchCompletedSubject.onNext(items)
-                }
-            })
-            .disposed(by: disposeBag)
 
         let getAllHeritages = viewDidLoad
 
         getAllHeritages
             .drive(onNext: { ( _) in
-                guard items == nil else { return }
+                guard items == nil else {
+                    fetchCompletedSubject.onNext(items)
+                    return
+                }
                 fetchRequestStatusSubject.onNext(.inProgress(message: nil))
                 heritageService.getAllHeritages { [weak self] (response) in
                     guard let strongSelf = self else { return }
