@@ -22,6 +22,7 @@ class RegistrationViewController: UIViewController {
     private let disposeBag = DisposeBag()
     private let theme: Theme
 
+    @IBOutlet var textFieldCollection: [SkyFloatingLabelTextField]!
     @IBOutlet weak var usernameTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var passwordTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var infoLabel: UILabel!
@@ -48,8 +49,25 @@ class RegistrationViewController: UIViewController {
         brand()
         localize()
         registerButton.makeCornersRound()
+        usernameTextField.delegate = self
+        passwordTextField.delegate = self
     }
 }
+
+extension RegistrationViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        guard let textField = textField as? SkyFloatingLabelTextField else { return false }
+        guard let index = textFieldCollection.firstIndex(of: textField) else { return true }
+        
+        if index < textFieldCollection.count - 1 {
+            textFieldCollection[index + 1].becomeFirstResponder()
+        } else {
+            textFieldCollection[index].resignFirstResponder()
+        }
+        return true
+    }
+}
+
 extension RegistrationViewController {
 
     func brand() {

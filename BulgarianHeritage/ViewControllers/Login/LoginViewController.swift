@@ -23,6 +23,7 @@ class LoginViewController: UIViewController {
     private let disposeBag = DisposeBag()
     private let theme: Theme
 
+    @IBOutlet var textFieldCollection: [SkyFloatingLabelTextField]!
     @IBOutlet weak var usernameTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var passwordTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var createAccountButton: UIButton!
@@ -55,6 +56,22 @@ class LoginViewController: UIViewController {
         brand()
         localize()
         loginButton.makeCornersRound()
+        usernameTextField.delegate = self
+        passwordTextField.delegate = self
+    }
+}
+
+extension LoginViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        guard let textField = textField as? SkyFloatingLabelTextField else { return false }
+        guard let index = textFieldCollection.firstIndex(of: textField) else { return true }
+        
+        if index < textFieldCollection.count - 1 {
+            textFieldCollection[index + 1].becomeFirstResponder()
+        } else {
+            textFieldCollection[index].resignFirstResponder()
+        }
+        return true
     }
 }
 

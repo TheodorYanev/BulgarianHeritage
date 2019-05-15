@@ -65,13 +65,11 @@ extension ScoresViewController {
     }
     
     private func bindOutputs() {
-        var position = 0
         let theme = self.theme
         let dataSource = RxTableViewSectionedReloadDataSource<SectionOfScores>
             .init(configureCell: { (_, tableView, indexPath, score) -> UITableViewCell in
                 let cell = tableView.dequeueReusableCell(for: indexPath) as ScoresTableViewCell
-                position += 1
-                cell.positionLabel.text = String(position)
+                cell.positionLabel.text = String(indexPath.row + 1)
                 cell.usernameLabel.text = score.username
                 cell.scoreLabel.text = String(score.score)
                 

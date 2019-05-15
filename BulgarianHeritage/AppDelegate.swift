@@ -30,11 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         GMSServices.provideAPIKey("AIzaSyCSodyWkmg6SkwMXUmOSvhcnW8P_9ctpEU")
 
-        let configuration = Configuration(baseURL: "http://192.168.0.100:3000")
-        //"http://172.20.10.3:3000"
-        //"http://192.168.112.203:3000"
-        //"http://192.168.112.179:3000"
-        //"http://192.168.0.101:3000"
+        //set baseURL based on your Local IP Address
+        let configuration = Configuration(baseURL: "http://192.168.0.102:3000")
         let accountService = CachedUserManager()
         let networking = Networking(configuration: configuration)
         let theme = StandardTheme()
